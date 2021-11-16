@@ -1,13 +1,17 @@
-a = range(100,400,1)
+a = range(100,401,1)
 b=[]
 for x in a:
     z=x
     spr=1
-    while z>0:
+    m=3
+    while m>0:
         k=z%10
-        if k%2!=0:
+        g=k%2
+        g=int(g)
+        if g!=0:
             spr=0
-        z/=10
+        z=z/10
+        m-=1
     if spr==1:
         b.append(x)
 print(b)

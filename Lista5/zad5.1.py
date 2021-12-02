@@ -5,5 +5,5 @@ def zam():
     if len(x)>1:
         print(cyf[x[0]]+cyf[x[1]])
     else:
-        print(cyf[x])
+        print(cyf[x[0]])
 zam()

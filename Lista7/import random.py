@@ -11,12 +11,10 @@ for i in range(0,300):
 
 def bab(tab):
     dl=len(tab)
-    for i in range(dl):       
+    for i in range(1,dl):       
         for n in range(0,dl-1):           
-            if tab[n]>tab[n+1]:
-                z=tab[n]
-                tab[n]=tab[n+1]
-                tab[n+1]=z
+            if tab[i]<tab[n]:
+                
     return tab
 
 print(bab(l1))

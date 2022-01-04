@@ -1,0 +1,20 @@
+02310454315:
+ data urodzenia 04-11-2002;	 plec: mezczyzna
+20292949012:
+ data urodzenia 29-09-2020;	 plec: mezczyzna
+16291933284:
+ data urodzenia 19-09-2016;	 plec: kobieta
+22322293449:
+ data urodzenia 22-12-2022;	 plec: kobieta
+01260624247:
+ data urodzenia 06-06-2001;	 plec: kobieta
+19233000657:
+ data urodzenia 30-03-2019;	 plec: mezczyzna
+19291379960:
+ data urodzenia 13-09-2019;	 plec: kobieta
+05260750148:
+ data urodzenia 07-06-2005;	 plec: kobieta
+01270276865:
+ data urodzenia 02-07-2001;	 plec: kobieta
+09322257190:
+ data urodzenia 22-12-2009;	 plec: mezczyzna

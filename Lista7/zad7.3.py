@@ -1,4 +1,5 @@
 import random
+import time
 l1=[]
 l2=[]
 l3=[]
@@ -19,6 +20,17 @@ def bab(tab):
                 tab[n+1]=z
     return tab
 
-print(bab(l1))
-print(bab(l2))
-print(bab(l3))
+start=time.time()
+bab(l1)
+end=time.time()
+print(end-start)
+
+start=time.time()
+bab(l2)
+end=time.time()
+print(end-start)
+
+start=time.time()
+bab(l3)
+end=time.time()
+print(end-start)

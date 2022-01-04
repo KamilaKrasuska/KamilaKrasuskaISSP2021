@@ -15,5 +15,13 @@ def fibrek(n):
     if n<2:
         return 1
     return fibrek(n-1) + fibrek(n-2)
-#fibiter(n)
+
+start=time.time()
 print(fibrek(n))
+end=time.time()
+print(end-start)
+
+start=time.time()
+fibiter(n)
+end=time.time()
+print(end-start)

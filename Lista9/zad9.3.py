@@ -45,7 +45,7 @@ c2 = c1.twinx()
 
 color = 'tab:red'
 c2.set_ylabel('Vh [m]', color=color)
-c2.plot(t, vx, color=color)
+c2.plot(t, vx*np.ones_like(t), color=color)
 c2.tick_params(axis='y', labelcolor=color)
 
 
